@@ -21,12 +21,16 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-	    <dependency>
-		<groupId>spark</groupId>
-		<artifactId>spark</artifactId>
-		<version>0.9.9.3-SNAPSHOT</version>
+		<dependency>
+			<groupId>spark</groupId>
+			<artifactId>spark</artifactId>
+			<version>0.9.9.3-SNAPSHOT</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>2.3.19</version>
+		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>
